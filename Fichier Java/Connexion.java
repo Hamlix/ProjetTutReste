@@ -11,7 +11,7 @@ import javax.net.ssl.HttpsURLConnection;
 
 public class Connexion extends Thread{
     public String resultat ="";
-    public static final String chemin_acces_script= "http://"+ParametreConnexion.adresseIP+"/Users/Hamlix/Desktop/scripts/connexion.php";
+    public static final String chemin_acces_script= "http://"+ParametreConnexion.adresseIP+"/projet/ScriptJeu/connexion.php";
     public void run() {
         try {
             URL url = new URL(chemin_acces_script+
