@@ -1,7 +1,7 @@
 <?php
-$host = "pacome.herbin.info/phpmyadmin";
-$user = "nathanaelle";
-$password = "licorne";
-$db = "ProjetNath";
-$port = 3306;
+$host = "";
+$user = "";
+$password = "";
+$db = "";
+$port = ;
 ?>
